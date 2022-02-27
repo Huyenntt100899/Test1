@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assest/styles/main.css">
+  <link rel="stylesheet" href="./assest/styles/responsive.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div>
+    <header class="header" id="header-scroll">
+      <div class="container">
+        <div class="header-wrapper">
+          <a href="" class="header-logo">
+            <img class="logo-img" src="./assest/images/Logo.png" alt="">
+          </a>
+
+          <ul class="header-nav" id="nav">
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">Hướng dẫn sử dụng</a></li>
+            <li><a href="">Thủ tục - Biểu mẫu</a></li>
+            <li><a href="">Hỗ trợ</a></li>
+          </ul>
+
+          <div class="header-btn">
+            <button class="btn" href="">Đăng ký</button>
+            <button class="btn" href="">Đăng nhập</button>
+
+            <div class="header-icon-menu" onclick="activeMenu(this)">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="background section-bg">
+
+        <img class="background-img1" src="./assest/images/background/Picture5.png" alt="">
+      </div>
+
+      <img class="background background-img2" src="./assest/images/background/Picture19.png" alt="">
+      <div class="services services-electronic">
+        <div class="wrapper">
+          <div class="initiatory">
+            <div class="text-title">
+              <h3>
+                Dịch vụ một cửa điện tử
+              </h3>
+            </div>
+            <div class="text-content">
+              Đăng ký dử dụng dịch vụ chưa bao giờ nhanh chóng và thuận tiện đến thế.
+              <span>Bấm <a href="">đăng ký</a> ngay!</span>
+            </div>
+          </div>
+
+          <div class="section-about">
+            <div class="about-item">
+              <h6 class="about-number number">0</h6>
+              <p>Phòng lab được trang bị</p>
+            </div>
+            <div class="about-item">
+              <h6 class="about-number number">0</h6>
+              <p>Đội ngũ tư vấn chuyên ghiệp</p>
+            </div>
+            <div class="about-item">
+              <h6 class="about-number number">0</h6>
+              <p>Khóa học với nhiều chủ đề</p>
+            </div>
+            <div class="about-item about-btn">
+              <a href="">
+                <h3>Đăng ký</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="services services-WHC">
+        <div class="initiatory">
+          <div class="text-title">
+            <h3>
+              Dịch vụ tại các trụ sở WHC
+            </h3>
+          </div>
+          <div class="text-content">
+            <p>
+              Trung tâm Dịch vụ tích hợp, linh hoạt chuyển đổi không gian làm việc chung, phòng thí nghiệm, không gian
+              sự kiện và trưng bày triển lãm
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="services-bg background">
+            <div class="bg-opacity3"></div>
+            <img src="./assest/images/background/Picture5.png" alt="" class="background-img3">
+          </div>
+          <div class="wrapper">
+            <div class="services-col col-2">
+              <div class="services-box">
+                <div class="services-icon">
+                  <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div class="services-des">
+                  <div class="text-title section-title">
+                    <h6>Sử dụng phòng họp</h6>
+                  </div>
+                  <div class="text-content section-content">
+                    <p>Không gian văn phòng linh hoạt, hiện đại, sáng tạo với nhiều tiện ích dành cho doanh nghiệp</p>
+                  </div>
+                </div>
+                <div class="services-btn">
+                  <a href="" class="btn">Đăng ký</a>
+                </div>
+              </div>
+            </div>
+            <div class="services-col col-2">
+              <div class="services-box">
+                <div class="services-icon">
+                  <i class="fa-solid fa-calendar-check"></i>
+                </div>
+                <div class="services-des">
+                  <div class="text-title section-title">
+                    <h6>Tổ chức sự kiện</h6>
+                  </div>
+                  <div class="text-content section-content">
+                    <p>Cơ sở MICE chuyên nghiệp, thiết kế phù hợp cùng không gian tổ chức sự kiện linh hoạt, đa năng, lý
+                      tưởng cho nhiều loại hình thức tổ chức sự kiện </p>
+                  </div>
+                </div>
+                <div class="services-btn">
+                  <a href="" class="btn">Đăng ký</a>
+                </div>
+              </div>
+            </div>
+            <div class="services-col col-2">
+              <div class="services-box">
+                <div class="services-icon">
+                  <i class="fa-solid fa-flask"></i>
+                </div>
+                <div class="services-des">
+                  <div class="text-title section-title">
+                    <h6>Sử dụng phòng lab/khu trải nghiệm công nghệ</h6>
+                  </div>
+                  <div class="text-content section-content">
+                    <p>Không gian được trang bị công nghệ hiện đại, tiên tiến từ các công ty công nghệ hàng đầu Việt Nam
+                    </p>
+                  </div>
+                </div>
+                <div class="services-btn">
+                  <a href="" class="btn">Đăng ký</a>
+                </div>
+              </div>
+            </div>
+            <div class="services-col col-2">
+              <div class="services-box">
+                <div class="services-icon">
+                  <i class="fa-solid fa-calendar-day"></i>
+                </div>
+                <div class="services-des">
+                  <div class="text-title section-title">
+                    <h6>Tham gia hoạt động tại whc</h6>
+                  </div>
+                  <div class="text-content section-content">
+                    <p>Hội thảo, chương trình thiết kế dành riêng cho từng lĩnh vực, ngành nghề</p>
+                  </div>
+                </div>
+                <div class="services-btn">
+                  <a href="" class="btn">Đăng ký</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="services register-course">
+        <img class="background-img4 background" src="./assest/images/background/Picture19.png" alt="">
+        <div class="wrapper">
+          <div class="initiatory">
+            <div class="text-title">
+              <h3>
+                Đăng ký khóa học
+              </h3>
+            </div>
+            <div class="text-content">
+              Nguồn khóa học phong phú, chất lượng, hỗ trợ phát triển nhân lực theo các lĩnh vực, ngành nghề chuyên môn
+            </div>
+          </div>
+
+          <div class="wrapper-row">
+
+            <div class="col-1 register-col">
+              <div class="register-box">
+                <div class="register-img">
+                  <img src="./assest/images/course/Picture1.png" alt="">
+                </div>
+                <div class="register-des">
+                  <div class="text-title section-title">
+                    <h6>Tương lai của IoT</h6>
+                  </div>
+                  <p>Ngày khai giảng: 27/07/2021</p>
+                  <p>Lịch học: Thứ 2, thứ 6</p>
+                  <p>Giờ học: 18:00 - 20:00</p>
+                </div>
+                <div class="services-btn">
+                  <a href="" class="btn">Đăng ký</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 register-col">
+              <div class="register-box">
+                <div class="register-img">
+                  <img src="./assest/images/course/Picture2.png" alt="">
+                </div>
+                <div class="register-des">
+                  <div class="text-title section-title">
+
+                    <h6>DTSI cho chuyển đổi số</h6>
+                  </div>
+                  <p>Ngày khai giảng: 27/07/2021</p>
+                  <p>Lịch học: Thứ 2, thứ 6</p>
+                  <p>Giờ học: 18:00 - 20:00</p>
+                </div>
+                <div class="services-btn">
+                  <a href="" class="btn">Đăng ký</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 register-col">
+              <div class="register-box">
+                <div class="register-img">
+                  <img src="./assest/images/course/Picture3.png" alt="">
+                </div>
+                <div class="register-des">
+                  <div class="text-title section-title">
+
+                    <h6>Ai trong quản trị dữ liệu</h6>
+                  </div>
+                  <p>Ngày khai giảng: 27/07/2021</p>
+                  <p>Lịch học: Thứ 2, thứ 6</p>
+                  <p>Giờ học: 18:00 - 20:00</p>
+                </div>
+                <div class="services-btn">
+                  <a href="" class="btn">Đăng ký</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class=" services register-consultation">
+        <div class="initiatory">
+          <div class="text-title">
+            <h3>
+
+              Đăng ký tư vấn với chuyên gia
+            </h3>
+          </div>
+          <div class="text-content">
+            Nơi quy tụ đội ngũ chuyên gia và đối tác giàu kinh nghiệm, sẵn sàng hỗ trợ, tư vấn doanh nghiệp đưa ra
+            những quyết định, giải pháp tốt nhất cho tổ chức
+          </div>
+        </div>
+
+        <div class="background register-consultation-bg">
+          <img class="background-img5" src="./assest/images/background/Picture6.png" alt="">
+        </div>
+        <div class="wrapper">
+          <div class="services-col col-2">
+            <div class="services-box">
+              <div class="services-icon">
+
+                <i class="fas fa-cloud-download"></i>
+              </div>
+              <div class="services-des">
+                <div class="text-title section-title">
+                  <h6>Công nghệ thông tin</h6>
+                </div>
+                <div class="text-content section-content">
+                  <p>Tìm kiếm giải pháp công nghệ phù hợp với doanh nghiệp</p>
+                </div>
+              </div>
+              <div class="services-btn">
+                <a href="" class="btn">Đăng ký</a>
+              </div>
+            </div>
+          </div>
+          <div class="services-col col-2">
+            <div class="services-box">
+              <div class="services-icon">
+                <i class="fa-solid fa-building"></i>
+
+              </div>
+              <div class="services-des">
+                <div class="text-title section-title">
+                  <h6>Thành lập doanh nghiệp</h6>
+                </div>
+                <div class="text-content section-content">
+                  <p>Tư vấn, thủ tục, hồ sơ đăng ký doanh nghiệp</p>
+                </div>
+              </div>
+              <div class="services-btn">
+                <a href="" class="btn">Đăng ký</a>
+              </div>
+            </div>
+          </div>
+          <div class="services-col col-2">
+            <div class="services-box">
+              <div class="services-icon">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="services-des">
+                <div class="text-title section-title">
+                  <h6>Nguồn nhân lực</h6>
+                </div>
+                <div class="text-content section-content">
+                  <p>
+                    Tư vấn quản lý nguồn nhân lực và chuyển đổi cơ cấu doanh nghiệp
+                  </p>
+                </div>
+              </div>
+              <div class="services-btn">
+                <a href="" class="btn">Đăng ký</a>
+              </div>
+            </div>
+          </div>
+          <div class="services-col col-2">
+            <div class="services-box">
+              <div class="services-icon">
+                <i class="fa-brands fa-medium"></i>
+              </div>
+              <div class="services-des">
+                <div class="text-title section-title">
+                  <h6>Truyền thông</h6>
+                </div>
+                <div class="text-content section-content">
+                  <p>Tư vấn xây dựng chiến lược truyền thông, định vị và phát triển thương hiệu doanh nghiệp</p>
+                </div>
+              </div>
+              <div class="services-btn">
+                <a href="" class="btn">Đăng ký</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="services experience">
+        <div class="initiatory">
+          <div class="text-title">
+            <h3>
+              Trải nghiệm doanh nghiệp
+            </h3>
+          </div>
+          <div class="text-content">
+            WHC luôn đặt mục tiêu tạo nên dịch vụ chất lượng cùng những trải nghiệm mới mẻ, từ đó mang lại sự hài lòng
+            tuyệt đối cho doanh nghiệp
+            <p></p>
+          </div>
+        </div>
+        <div class="wrapper-row">
+          <div class="col-1 ex-col">
+            <div class="ex-box">
+              <div class="avata-img">
+                <img src="./assest/images/avata/Picture16.png" alt="">
+              </div>
+              <div class="ex-des">
+                <p>"Tôi học hỏi được nhiều và thực sự đã mở mang tư duy để sẵn sàng đón nhận những cơ hội mới mà Chuyển
+                  đổi số
+                  tạo ra, nhằm cải thiện hoạt động kinh doanh của công nghiệp mình."</p>
+              </div>
+              <div class="info">
+                <h6 class="info-name">Hoàng Minh Tùng</h6>
+                <p class="infor-des">Giám đốc Điều hành VINFAST</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1 ex-col">
+            <div class="ex-box">
+              <div class="avata-img">
+                <img src="./assest/images/avata/Picture17.png" alt="">
+              </div>
+              <div class="ex-des">
+                <p>"Tôi học hỏi được nhiều và thực sự đã mở mang tư duy để sẵn sàng đón nhận những cơ hội mới mà Chuyển
+                  đổi số
+                  tạo ra, nhằm cải thiện hoạt động kinh doanh của công nghiệp mình."</p>
+              </div>
+              <div class="info">
+                <h6 class="info-name">Nguyễn Vũ Quỳnh Anh</h6>
+                <p class="infor-des">Giám đốc Điều hành ABC Group</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1 ex-col">
+            <div class="ex-box">
+              <div class="avata-img">
+                <img src="./assest/images/avata/Picture18.png" alt="">
+              </div>
+              <div class="ex-des">
+                <p>"Tôi học hỏi được nhiều và thực sự đã mở mang tư duy để sẵn sàng đón nhận những cơ hội mới mà Chuyển
+                  đổi số
+                  tạo ra, nhằm cải thiện hoạt động kinh doanh của công nghiệp mình."</p>
+              </div>
+              <div class="info">
+                <h6 class="info-name">Trần Đức Bình</h6>
+                <p class="infor-des">Quản lý Dự án INVESFOV</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-event">
+
+        <div class="initiatory services">
+          <div class="text-title">
+            <h3>
+
+              Tin tức - Sự kiện
+            </h3>
+          </div>
+          <div class="text-content">
+            Không gian cập nhật các tin tức về hoạt động, sự kiện nổi bật liên quan đến nhiều lĩnh vực, ngành nghề
+          </div>
+        </div>
+
+        <div class="background news-event-bg">
+          <img class="background-img6" src="./assest/images/background/Picture19.png" alt="">
+        </div>
+
+        <div class="news-wrapper">
+
+          <div class="col news-event-columns">
+            <div class="news-event-square">
+              <img src="./assest/images/newsEvent/Picture7.png" alt="">
+              <span>Khoa học</span>
+            </div>
+            <div class="news-event-square">
+              <img src="./assest/images/newsEvent/Picture12.png" alt="">
+              <span>AI</span>
+            </div>
+          </div>
+          <div class="col news-event-columns">
+            <div class="news-event-square">
+              <img src="./assest/images/newsEvent/Picture8.png" alt="">
+              <span>Viễn tưởng</span>
+            </div>
+            <div class="news-event-square">
+              <img src="./assest/images/newsEvent/Picture13.png" alt="">
+              <span>Máy tính</span>
+            </div>
+          </div>
+          <div class="col news-event-columns">
+            <div class="news-event-square">
+              <img src="./assest/images/newsEvent/Picture10.png" alt="">
+              <span>Âm nhạc</span>
+            </div>
+            <div class="news-event-square">
+              <img src="./assest/images/newsEvent/Picture14.png" alt="">
+              <span>Robot</span>
+            </div>
+          </div>
+          <div class="col news-event-columns">
+            <div class="news-event-square">
+              <img src="./assest/images/newsEvent/Picture11.png" alt="">
+              <span>Chuyển đổi số</span>
+            </div>
+            <div class="news-event-square">
+              <img src="./assest/images/newsEvent/Picture15.png" alt="">
+              <span>Công nghệ</span>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <footer class="footer">
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-slider">
+            <div class="footer-top-img footer-top-mobile">
+
+              <img src="./assest/images/footer/footer-top/logo-vingroup.jpg" alt="">
+            </div>
+            <div class="footer-top-img footer-top-mobile">
+
+              <img src="./assest/images/footer/footer-top/logo-vt.png" alt="">
+            </div>
+            <div class="footer-top-img">
+
+              <img src="./assest/images/footer/footer-top/MoMo_Logo.png" alt="">
+            </div>
+            <div class="footer-top-img">
+
+              <img src="./assest/images/footer/footer-top/cmc.jpg" alt="">
+            </div>
+            <div class="footer-top-img">
+
+              <img src="./assest/images/footer/footer-top/vnpt-logo.png" alt="">
+            </div>
+            <div class="footer-top-img">
+
+              <img src="./assest/images/footer/footer-top/logo-doventures.png" alt="">
+            </div>
+            <div class="footer-top-img">
+
+              <img src="./assest/images/footer/footer-top/logo-grab.png" alt="">
+            </div>
+            <div class="footer-top-img">
+
+              <img src="./assest/images/footer/footer-top/logo-sap.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+
+        <div class="container">
+          <img src="./assest/images/background/Picture19.png" alt="" class="background-footer background">
+          <div class="footer-row">
+            <div class="footer-item footer-logo">
+              <img class="footer-logo-img" src="./assest/images/footer/Logo.png" alt="">
+
+              <div class="footer-icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fab fa-linkedin"></i>
+              </div>
+            </div>
+
+            <div class="footer-item footer-info">
+              <ul>
+                <li>
+                  <a href="">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>6B Hoàng Diệu, Ba Đình, Hà Nội</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>info@whc.com</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>08.044.838</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </footer>
+
+  </div>
+</body>
+
+<script src="./assest/JS/countUp.js"></script>
+<script src="./assest/JS/headerScroll.js"></script>
+<script src="./assest/JS/mobileMenu.js"></script>
+
+</html>
