@@ -91,7 +91,7 @@ p {
   position: fixed;
   padding: 15px 0;
   background: var(--color-white);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 35%);
   -webkit-animation: headerScroll 0.5s linear forwards;
   animation: headerScroll 0.5s linear forwards;
   z-index: 1;
@@ -173,7 +173,7 @@ p {
 .section .services-electronic .section-about {
   align-items: center;
   display: flex;
-  box-shadow: 0 0 5px rgba(10, 31, 68, 0.08);
+  box-shadow: 0 0 5px rgba(10, 31, 68, 35%);
   border-radius: 10px;
   height: 80px;
 }
@@ -234,7 +234,7 @@ p {
   padding: 0 25px 25px 0;
 }
 .section .services .wrapper .services-col .services-box {
-  box-shadow: 0 0 5px rgba(10, 31, 68, 0.08);
+  box-shadow: 0 0 5px rgba(10, 31, 68, 35%);
   padding: 20px 25px;
   border-radius: 5px;
   min-height: 330px;
@@ -335,7 +335,7 @@ p {
   margin-right: 30px;
 }
 .section .register-course .wrapper-row .register-col .register-box {
-  box-shadow: 0 0 5px rgba(10, 31, 68, 0.08);
+  box-shadow: 0 0 5px rgba(10, 31, 68, 35%);
   border-radius: 5px;
   min-height: 500px;
 }
@@ -403,11 +403,11 @@ p {
 .section .experience .wrapper-row .ex-col .avata-img img {
   width: 56px;
   border-radius: 50%;
-  box-shadow: 0 0 5px rgba(10, 31, 68, 0.08);
+  box-shadow: 0 0 5px rgba(10, 31, 68, 35%);
   border: 2px solid var(--color-white);
 }
 .section .experience .wrapper-row .ex-col .ex-box {
-  box-shadow: 0 0 5px rgba(10, 31, 68, 0.08);
+  box-shadow: 0 0 5px rgba(10, 31, 68, 35%);
   border-radius: 5px;
   position: relative;
 }
