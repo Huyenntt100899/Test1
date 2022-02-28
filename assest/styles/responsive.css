@@ -23,6 +23,7 @@
   }
 
   .header-nav {
+    padding-right: 0 !important;
     top: 100%;
     left: 0;
     width: 100%;
@@ -145,6 +146,18 @@
 @media (max-width: 767px) {
   .header-btn .btn {
     display: none;
+  }
+
+  .services {
+    padding: 0 25px !important;
+  }
+
+  .services-col {
+    padding-right: 0 !important;
+  }
+
+  .register-col {
+    margin-right: 0 !important;
   }
 
   .initiatory {
