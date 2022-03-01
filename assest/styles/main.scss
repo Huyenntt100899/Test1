@@ -151,10 +151,15 @@ p {
     max-width: 1170px;
     .wrapper {
       display: flex;
-      padding-right: 0;
       padding-top: 20px;
+      flex-wrap: wrap;
       .services-col {
-        padding: 0 25px 25px 0;
+        padding-right: 25px;
+        transition: 0.5s ease;
+
+        &:hover {
+          transform: translateY(-50px);
+        }
 
         .services-WHC-hover {
           &:hover {
@@ -171,8 +176,7 @@ p {
           width: 310px;
 
           &:hover {
-            transform: translate(0, -20px);
-            transition: 0.5s ease;
+            // transform: translate(0, -20px);
             .services-icon {
               background-color: var(--color-white);
               i {
@@ -437,10 +441,6 @@ p {
       }
     }
     .wrapper {
-      display: flex;
-      flex-wrap: wrap;
-      padding-top: 20px;
-      padding-right: 330px;
     }
   }
 
@@ -448,7 +448,7 @@ p {
     padding-top: 22px;
     .wrapper-row {
       padding-top: 40px;
-      .ex-row {
+      .ex-col {
         margin-right: 36px;
         .avata-img {
           position: absolute;
